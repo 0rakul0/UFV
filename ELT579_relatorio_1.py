@@ -15,8 +15,8 @@ import torch.nn as nn
 import torch.optim as optim
 
 # Carregar dados
-train = pd.read_csv(r'D:\github\UFV\data\train.csv')
-test = pd.read_csv(r'D:\github\UFV\data\test.csv')
+train = pd.read_csv(r'.\data\train.csv')
+test = pd.read_csv(r'.\data\test.csv')
 
 
 # Função para criar features
